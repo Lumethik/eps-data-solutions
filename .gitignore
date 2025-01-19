@@ -1,0 +1,15 @@
+# Ignorar archivos de bases de datos y otros tipos no deseados
+*.neg
+*.val
+*.txt
+*.csv
+*.xlsx
+
+# (Opcional) Ignorar también otros tipos relacionados
+*.db
+*.dbf
+*.log
+
+# Ignorar todo lo dentro de la carpeta "data", excepto los archivos necesarios
+data/*
+!data/.gitkeep
